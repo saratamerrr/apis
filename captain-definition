@@ -1,10 +1,4 @@
 {
   "schemaVersion": 2,
-  "dockerfileLines": [
-    "COPY . /app"
-  ],
-  "build": {
-    "context": "./",
-    "dockerfilePath": "Dockerfile"
-  }
+  "dockerfilePath": "./Dockerfile"
 }
