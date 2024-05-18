@@ -5,6 +5,6 @@
   ],
   "build": {
     "context": "./",
-    "dockerfilePath": "dockerfile"
+    "dockerfilePath": "Dockerfile"
   }
 }
