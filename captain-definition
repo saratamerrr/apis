@@ -1,4 +1,10 @@
 {
   "schemaVersion": 2,
-  "templateId": "python"
+  "dockerfileLines": [
+    "COPY . /app"
+  ],
+  "build": {
+    "context": "./",
+    "dockerfilePath": "dockerfile"
+  }
 }
